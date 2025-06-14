@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import MusicPlayer from './components/MusicPlayer';
+import "./globals.css"
 
 
 export default function BirthdaySurprise() {

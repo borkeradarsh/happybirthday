@@ -234,13 +234,13 @@ export default function BirthdaySurprise() {
         💝
       </motion.div>
       <h3 className="text-2xl font-handwriting text-pink-600 mb-4">My babyyy,</h3>
-      <p className="text-gray-700 leading-relaxed font-handwriting">
+      <p className="text-gray-700 leading-relaxed font-serif">
         On your 20th birthday, I want you to know how much joy and love you bring to my life.
         Every moment with you is a treasure, and Im so grateful to be with you.
         You make my world brighter just by being in it.
       </p>
       <p className="text-right mt-4 font-handwriting text-pink-600">
-        Forever Yours ❤️
+        always w you my bebduuu❤️
       </p>
       <motion.button
         onClick={handleLoveNoteClick}
@@ -280,7 +280,7 @@ export default function BirthdaySurprise() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                  <h3 className="text-xl font-handwriting text-white mb-2">{memory.caption}</h3>
+                  <h3 className="text-sm font-serif text-white mb-2">{memory.caption}</h3>
                 </div>
               </div>
             </motion.div>
@@ -436,7 +436,7 @@ export default function BirthdaySurprise() {
               type: "spring",
               stiffness: 100
             }}
-            className="absolute top-24 left-1/2 transform -translate-x-1/2 z-20 w-full max-w-3xl text-center"
+            className="absolute top-24 left-1/4 transform -translate-x-1/2 z-20 w-full max-w-3xl text-center"
           >
             <Image
               src="/banner.png"
@@ -452,7 +452,7 @@ export default function BirthdaySurprise() {
               transition={{ delay: 1, duration: 0.5 }}
               className="mt-4"
             >
-              <h1 className="text-4xl md:text-6xl font-fancy text-pink-600 glow animate-float">
+              <h1 className="text-xl z-30 font-fancy mt-20 text-pink-600 glow animate-float">
                 PAKHEEEEEEE
               </h1>
               <motion.p
@@ -506,7 +506,7 @@ export default function BirthdaySurprise() {
             initial={{ scale: 0, y: 100 }}
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0, y: 100 }}
-            className="fixed bottom-32 left-1/2 transform -translate-x-1/2 z-30"
+            className="fixed bottom-32 left-1/3 transform -translate-x-3/4 z-30"
           >
             <div className="relative cursor-pointer" onClick={blowCandles}>
               {/* Cake Base */}
@@ -712,7 +712,7 @@ export default function BirthdaySurprise() {
               >
                 Happy 20th Birthday, Pakhee! 🎂
               </motion.h2>
-              <p className="text-xl font-handwriting text-gray-700 mb-6 leading-relaxed">
+              <p className="text-xl font-sans text-gray-700 mb-6 leading-relaxed">
                 As you step into your 20s, I want you to know that you&apos;re the most amazing person I&apos;ve ever met.
                 Your smile lights up my world, and every moment with you is a treasure I&apos;ll always cherish.
                 Here&apos;s to many more years of love, laughter, and beautiful memories together! 💖

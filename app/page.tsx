@@ -214,7 +214,7 @@ export default function BirthdaySurprise() {
       caption: 'FAV PLACEEEE WITH YOUUUU🌊',
     },
     { 
-      src: '/memory6.jpg', 
+      src: '/memory7.jpg', 
       caption: 'my fav girl💖',
     }
   ];
